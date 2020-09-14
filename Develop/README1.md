@@ -1,9 +1,9 @@
-# hi
+# README Generator
 
-![Website Down](https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg?style=for-the-badge)
+![Made With JS](https://img.shields.io/badge/Made%20with-JS-1f425f.svg?style=for-the-badge)
 
 ## Description 
-hi
+This generator uses inquirer to prompt questions to user. The inputs are obtained and used to generate a well formated README file for users repo.
 
 ## Table Of Contents
 + [Installation](#installation)
@@ -20,20 +20,20 @@ hi
 
 ## Installation
 #### To install neccessary dependencies, run the following command:  
-    hi
+    npm i
 
 ## Usage 
-hi
+Please install npm, inquirer, and axios.
 
 ## License 
-This project is licensed under the Website Down license.
+This project is licensed under the Made With JS license.
 
 ## Contributing
-hi
+Single contributor
 
 ## Tests
 #### To run tests, run the following command:
-    hi
+    NA
 
 ## Questions
 ![ProfilePic](https://avatars1.githubusercontent.com/u/16431379?v=4)

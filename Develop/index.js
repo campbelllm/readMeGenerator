@@ -109,9 +109,9 @@ const badge = (answer) => {
 const gitHubInfo = async (username) => {
   let result;
   const queryUrl = `https://api.github.com/users/${username}`;
-//authorizaiton token needs to be added to access email address with git hub request
+//authorizaiton token needs to be added to access email address with git hub request, removed personal token for now to keep safe
   const config = {
-    headers: {'Authorization': 'token b78a5819f1f91e2b1a7c6ffe98813719db397e6b'}
+    headers: {'Authorization': 'token '}
   }
   try {
     const { data } = await axios.get(queryUrl, config);
